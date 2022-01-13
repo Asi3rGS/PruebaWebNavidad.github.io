@@ -25,8 +25,8 @@ div#columna2 {
     position: static;
     overflow: auto;
     width: 60%;
-    margin-left: 250px;
-    padding-top: 130px;
+    margin-left: 245px;
+    padding-top: 20px;
     padding-right: 20px;
     padding-bottom: 10px;
     padding-left: 20px;
@@ -37,13 +37,15 @@ div#columna3 {
     position: fixed;
     overflow: auto;
     width: 200px;
-    height: 38%;
+    height: 36%;
     top: 11.2%;
     left: 75.5%;
     padding-top: 82px;
     padding-right: 10px;
     padding-left: 24px;
-    background-color: rgba(247, 243, 243, 0.63);
+    margin-top: -1em;
+    margin-left: -.3em;
+    background-color: rgba(247, 243, 243, 0.63); 
 }
 
 .boton_personalizado {
@@ -80,26 +82,26 @@ div#columna5 {
     overflow: auto;
     padding-top: 2%;
     padding-bottom: 2%;
-    padding-left: 13%;
+    padding-left: 12.7%;
     background-color: rgba(247, 243, 243, 0.63);
 }
 
 .col0 {
     position: relative;
-    margin-left: 245px;
+    margin-left: 240px;
     float: left;
 }
 
 .col00 {
     position: relative;
     margin-top: 25px;
-    margin-right: 173px;
+    margin-right: 182px;
 }
 
 .col1 {
     padding-top: 10px;
     padding-right: 10px;
-    padding-left: 10px;
+    padding-left: 5px;
     margin-left: 50px;
     float: left;
     position: relative;
@@ -162,7 +164,8 @@ h2 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-/*.slide {
+.slide {
+    height: 30.5em;
     position: relative;
     box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
     margin-top: auto;
@@ -175,6 +178,12 @@ h2 {
     height: calc( 300px + 18em);
 }
 
+.slide-inner img {
+    margin-top: 7em;
+    margin-left: 25em;
+    width: 43em;
+}
+
 .slide-open:checked + .slide-item {
     position: static;
     opacity: 100;
@@ -185,6 +194,21 @@ h2 {
     opacity: 0;
     -webkit-transition: opacity 0.6s ease-out;
     transition: opacity 0.6s ease-out;
+}
+
+.slide-item .img1 {
+    margin-left: 31em;
+    width: 38em;
+}
+
+.slide-item .img2 {
+    margin-left: 34em;
+    width: 33em;
+}
+
+.slide-item .img3 {
+    margin-left: 34em;
+    width: 33em;
 }
 
 .slide-item img {
@@ -239,8 +263,9 @@ h2 {
     padding: 0;
     position: absolute;
     bottom: 2%;
-    left: 0;
+    left: -70px;
     right: 0;
+    top: 500px;
     text-align: center;
     z-index: 10;
 }
@@ -278,4 +303,16 @@ h2 {
     font-family: 'Open Sans', sans-serif;
     z-index: 9999;
     text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), -1px 0px 2px rgba(255, 255, 255, 0);
-}*/
+}
+
+.control-3, .control-1, .control-2 {
+    margin-top: -.5em;
+}
+
+.user {
+    margin-bottom: -.4em;
+}
+
+.pass {
+    margin-bottom: -.4em;
+}
