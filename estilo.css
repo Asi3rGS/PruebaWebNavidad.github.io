@@ -33,6 +33,40 @@ div#columna2 {
     background-color: rgb(229, 239, 245);
 }
 
+.noticia1 {
+    position: relative;
+    margin-bottom: 18%;
+}
+
+.noticia2 {
+    position: relative;
+    margin-bottom: 18%;
+}
+
+.noticia3 {
+    position: relative;
+    margin-bottom: 18%;
+}
+
+.noticia4 {
+    position: relative;
+    margin-bottom: 18%;
+}
+
+.noticia5 {
+    position: relative;
+    margin-bottom: 18%;
+}
+
+.fotoblog {
+    float: right;
+    width: 560px;
+    height: 287px;
+    margin-left: 3%;
+    border-style: solid;
+    border-width: 2px;
+}
+
 div#columna3 {
     position: fixed;
     overflow: auto;
@@ -69,7 +103,7 @@ div#columna3 {
 }
 
 div#columna4 {
-    position: static;
+    clear: both;
     overflow: auto;
     width: 80%;
     padding-top: 1%;
@@ -78,7 +112,7 @@ div#columna4 {
 }
 
 div#columna5 {
-    position: static;
+    clear: both;
     overflow: auto;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -87,13 +121,13 @@ div#columna5 {
 }
 
 .col0 {
-    position: relative;
+    position: left;
     margin-left: 240px;
     float: left;
 }
 
 .col00 {
-    position: relative;
+    position: right;
     margin-top: 25px;
     margin-right: 182px;
 }
